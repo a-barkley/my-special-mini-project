@@ -9,3 +9,20 @@ header {
     padding: 20px;
     margin: 20px;
   }
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+    .box {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: 80%;
+    }
+}
