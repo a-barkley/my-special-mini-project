@@ -8,7 +8,7 @@ header {
 .box {
     width: 250px;
     height: 300px;
-    border: 5px solid blue;
+    border: 5px solid black;
     border-radius: 5%;
     padding: 20px;
     margin: 20px;
@@ -16,6 +16,8 @@ header {
 
 .box >h3{
     text-align: center;
+    border: 3px solid cyan;
+    position: absolute;
 }
 .cards {
     display: flex;
@@ -24,7 +26,7 @@ header {
 }
 
 .codebox {
-    border: 3px dashed lightblue
+    border: 3px dashed cyan;
 }
 @media screen and (max-width: 992px) {
     .box {
