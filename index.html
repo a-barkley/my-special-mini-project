@@ -10,13 +10,19 @@
   <body>
 	<header>
         <h1>CSS Snippet Cheatsheet</h1>
+        <h4>Here is some helpful CSS syntax!</h4>
         <hr>
     </header>
     <section class="cards">
         <div class="box">
             <h3>Flexbox Row</h3>
-            <p>More text</p>
-            <code>This is code</code>
+            <p>"flex-flow" is a shortcut for both flex-direction and flex-wrap!</p>
+            <pre class="codebox"><code>
+        .row {
+            display: flex;
+            flex-flow: row wrap;
+        }
+            </code></pre>
         </div>
         <div class="box">
             <h3>Flexbox Column</h3>
