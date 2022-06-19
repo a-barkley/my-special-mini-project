@@ -17,7 +17,7 @@ header {
 .box >h3{
     text-align: center;
     border: 3px solid cyan;
-    position: absolute;
+    position: relative;
 }
 .cards {
     display: flex;
@@ -28,6 +28,7 @@ header {
 .codebox {
     border: 3px dashed cyan;
 }
+
 @media screen and (max-width: 992px) {
     .box {
         width: 40%;
